@@ -1,4 +1,3 @@
-import { BrowserRouter } from 'react-router-dom';
 import {
   About,
   Contact,
@@ -7,11 +6,11 @@ import {
   Navbar,
   Tech,
   Projects,
-} from './components';
+} from "./components";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <section className="App">
       <div className="relative z-0">
         <div>
           <Navbar />
@@ -30,10 +29,12 @@ const App = () => {
 
         <div
           className="bg-experience bg-cover bg-center bg-no-repeat 
-            rounded-tl-[150px] rounded-br-[150px]">
+            rounded-tl-[150px] rounded-br-[150px]"
+        >
           <div
             className="bg-experienceLight bg-cover bg-center 
-            bg-no-repeat rounded-tl-[150px] rounded-br-[130px]">
+            bg-no-repeat rounded-tl-[150px] rounded-br-[130px]"
+          >
             <Experience />
           </div>
         </div>
@@ -41,7 +42,7 @@ const App = () => {
           <Contact />
         </div>
       </div>
-    </BrowserRouter>
+    </section>
   );
 };
 
