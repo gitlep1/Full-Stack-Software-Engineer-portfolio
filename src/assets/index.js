@@ -40,10 +40,9 @@ import bootstrap from "./tech/bootstrap.png";
 import javascript from "./tech/javascript.png";
 import postgresql from "./tech/postgresql.png";
 
-import coverhunt from "./company/coverhunt.png";
-import dcc from "./company/dcc.png";
-import kelhel from "./company/kelhel.png";
-import microverse from "./company/microverse.png";
+import creative from "./company/creative.png";
+import freelance from "./company/freelance.png";
+import senior from "./company/senior.png";
 
 import habbitly from "./projects/habbitly.png";
 import wwc from "./projects/wwc.png";
@@ -94,8 +93,7 @@ export {
   calcutor,
   planyourwealth,
   youtubeclone,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  senior,
+  creative,
+  freelance,
 };

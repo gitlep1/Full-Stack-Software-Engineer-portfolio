@@ -24,10 +24,9 @@ import {
   calcutor,
   planyourwealth,
   youtubeclone,
-  coverhunt,
-  dcc,
-  kelhel,
-  microverse,
+  senior,
+  creative,
+  freelance,
 } from "../assets";
 
 export const navLinks = [
@@ -141,32 +140,25 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Front-End Developer",
-    company_name: "Cover Hunt",
-    icon: coverhunt,
+    title: "Kitchen & Maintenance Apprentice",
+    company_name: "Senior Living Community",
+    icon: senior,
     iconBg: "#333333",
-    date: "Aug 2021 - Feb 2022",
+    date: "Nov 2016 - Jan 2017",
   },
   {
-    title: "Mentor (Volunteer)",
-    company_name: "Microverse",
-    icon: microverse,
+    title: "Film & Art Apprentice",
+    company_name: "Creative Art Works",
+    icon: creative,
     iconBg: "#333333",
-    date: "Mar 2022 - May 2022",
+    date: "Jun 2017 - Aug 2018",
   },
   {
-    title: "Junior Software Engineer",
-    company_name: "Kelhel",
-    icon: kelhel,
+    title: "Software Engineer",
+    company_name: "Freelance",
+    icon: freelance,
     iconBg: "#333333",
-    date: "May 2022 - Oct 2022",
-  },
-  {
-    title: "Full Stack Developer",
-    company_name: "Diversity Cyber Council",
-    icon: dcc,
-    iconBg: "#333333",
-    date: "Sep 2022 - Present",
+    date: "Mar 2023 - Present",
   },
 ];
 
