@@ -45,7 +45,7 @@ import freelance from "./company/freelance.png";
 import senior from "./company/senior.png";
 
 import habbitly from "./projects/habbitly.png";
-import wwc from "./projects/wwc.png";
+import wwc from "./projects/WWC.png";
 import calcutor from "./projects/calcutor.png";
 import planyourwealth from "./projects/planyourwealth.png";
 import youtubeclone from "./projects/youtubeclone.png";

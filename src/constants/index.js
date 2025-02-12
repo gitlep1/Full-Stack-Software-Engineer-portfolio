@@ -165,7 +165,7 @@ const experiences = [
 const projects = [
   {
     id: "project-1",
-    name: "Habbitly",
+    name: "Habbitly [WIP]",
     description:
       "A Full-Stack Application to help user’s keep track of their goals and habits.",
     tags: [
