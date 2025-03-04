@@ -188,7 +188,7 @@ const projects = [
   },
   {
     id: "project-2",
-    name: "World Wide Chess",
+    name: "World Wide Chess [Hiatus]",
     description:
       "A full-stack chess application that offers both AI-driven single-player and real-time multiplayer gameplay.",
     tags: [
