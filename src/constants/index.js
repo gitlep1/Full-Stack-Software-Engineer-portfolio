@@ -275,7 +275,7 @@ const projects = [
     ],
     image: youtubeclone,
     repo: "https://github.com/GalaticGamingBros/youtube-clone",
-    demo: "youtube-clone-ggb.netlify.app",
+    demo: "https://youtube-clone-ggb.netlify.app",
   },
 ];
 
