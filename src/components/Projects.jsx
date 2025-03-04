@@ -23,7 +23,7 @@ const ProjectCard = ({
       className={`relative ${
         active === id ? "lg:flex-[3.5] flex-[10]" : "lg:flex-[0.5] flex-[2]"
       } flex items-center justify-center min-w-[170px] 
-      h-[420px] cursor-pointer card-shadow`}
+      h-[420px] cursor-pointer card-shadow border-1 border-white`}
       onClick={() => handleClick(id)}
     >
       <div
@@ -41,7 +41,7 @@ const ProjectCard = ({
         <div className="flex items-center justify-start pr-[4.5rem]">
           <h3
             className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
-        whitespace-nowrap sm:text-[27px] text-[18px] text-timberWolf tracking-[1px]
+        whitespace-nowrap sm:text-[27px] text-[18px] text-white tracking-[1px]
         absolute z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
         leading-none z-20"
           >
@@ -52,7 +52,7 @@ const ProjectCard = ({
         <>
           <div
             className="absolute bottom-0 p-8 justify-start w-full 
-            flex-col bg-[rgba(122,122,122,0.5)] rounded-b-[24px] z-20"
+            flex-col bg-[rgba(0,0,0,0.7)] rounded-b-[24px] z-20"
           >
             <div className="absolute inset-0 flex justify-end m-3">
               <div
@@ -71,7 +71,7 @@ const ProjectCard = ({
 
             <h2
               className="font-bold sm:text-[32px] text-[24px] 
-              text-timberWolf uppercase font-beckman sm:mt-0 -mt-[1rem]"
+              text-white uppercase font-beckman sm:mt-0 -mt-[1rem]"
             >
               {name}
             </h2>

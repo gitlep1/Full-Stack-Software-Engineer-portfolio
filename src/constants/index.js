@@ -140,11 +140,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Kitchen & Maintenance Apprentice",
-    company_name: "Senior Living Community",
-    icon: senior,
+    title: "Software Engineer",
+    company_name: "Freelance",
+    icon: freelance,
     iconBg: "#333333",
-    date: "Nov 2016 - Jan 2017",
+    date: "Mar 2023 - Present",
   },
   {
     title: "Film & Art Apprentice",
@@ -154,11 +154,11 @@ const experiences = [
     date: "Jun 2017 - Aug 2018",
   },
   {
-    title: "Software Engineer",
-    company_name: "Freelance",
-    icon: freelance,
+    title: "Kitchen & Maintenance Apprentice",
+    company_name: "Senior Living Community",
+    icon: senior,
     iconBg: "#333333",
-    date: "Mar 2023 - Present",
+    date: "Nov 2016 - Jan 2017",
   },
 ];
 
